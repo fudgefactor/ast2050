@@ -4,6 +4,7 @@
 # This code sets up camera parameters and takes a number of 8-bit TIFF images.
 # All parameters are set to manual mode to ensure measurements are repeatable.
 # You can set the gain and exposure time with this code.
+# This code is compatible with Python 2.x
 #=============================================================================
 
 import PyCapture2
