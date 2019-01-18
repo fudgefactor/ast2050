@@ -37,6 +37,8 @@ def setupCamera(cam):
     cam.setProperty(type=PyCapture2.PROPERTY_TYPE.SHARPNESS,autoManualMode=False)
     cam.setProperty(type=PyCapture2.PROPERTY_TYPE.SHUTTER,autoManualMode=False)
     cam.setProperty(type=PyCapture2.PROPERTY_TYPE.GAIN,autoManualMode=False)
+    cam.setProperty(type=PyCapture2.PROPERTY_TYPE.SHUTTER,absControl=True)
+    cam.setProperty(type=PyCapture2.PROPERTY_TYPE.GAIN,absControl=True)
     cam.setProperty(type=PyCapture2.PROPERTY_TYPE.FRAME_RATE,onOff=False)
     cam.setProperty(type=PyCapture2.PROPERTY_TYPE.FRAME_RATE,autoManualMode=False)
 
