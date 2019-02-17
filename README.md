@@ -1,6 +1,6 @@
-# ast2050 - Astronomical Instrumentation
+# AST2050 - Astronomical Instrumentation
 
-Code repository for course
+Code repository for University of Toronto course
 
 Lab 1 - Photon Detection and Statistics
 
